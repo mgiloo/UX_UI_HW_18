@@ -1,0 +1,104 @@
+
+.inline-block{
+    display: inline-block;
+    vertical-align: center;
+    text-align: right;
+    font-weight: 500;
+    padding: 0 5px;
+  }
+  
+  body{
+      margin: 0px;
+      padding: 0%;
+      font-family: raleway, sans-serif;
+  }
+  
+  .logo{
+      width: 25%;
+      padding-left: 25%;
+      padding-top: 1%;
+      padding-bottom: 5%;
+
+  }
+  
+  .navBar{
+      width: 100%;
+      color: #FCE53D;
+      background-color: #21005D;
+      margin: none;
+  }
+
+  
+  .thirtythree{
+    display: inline-block;
+    padding-left: 40px;
+    
+  }
+  
+  #Graphic{
+
+    margin-left: 30%;
+  }
+  h1 {
+      text-align: right;
+      font-size: 20pt;
+      color: #F26322;
+      padding-top: 10%;
+      margin-right: 32%;
+    }
+  
+  #para1 {
+      text-align: left;
+      color: #21005D;
+      font-size: 16pt;
+      margin-left: 30%;
+      margin-bottom: -20px;
+    } 
+  
+    p {
+      text-align: left;
+      color: #000080;
+      font-size: 12pt;
+      margin-left: 30%;
+    }
+    h2 {
+      text-align: left;
+      color: #000080;
+      font-size: medium;
+      margin-left: 30%;
+    }
+    
+    h3 {
+      text-align: left;
+      color: #000080;
+      margin-left: 30%;
+    }
+  
+    .icons {
+      display: flex;
+      justify-content: right;
+      padding: 0%;
+    }
+  
+    .icons img{
+      margin: 4px;
+      cursor: pointer;
+    }
+  
+    #para2{
+      text-align: center;
+      color: #FCE53D;
+      font-size: 15px;
+      margin-left: 25%;
+    }
+    footer{
+      display: inline-block;
+      vertical-align: center;
+      background-color: #21005D;
+      color: #FCE53D;
+      padding: 10px;
+      font-weight: 500;
+      width: 100%;
+    }
+  
+  
