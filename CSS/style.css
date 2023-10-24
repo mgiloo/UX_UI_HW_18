@@ -19,8 +19,7 @@
       width: 25%;
       padding-left: 38%;
       padding-top: 1%;
-      padding-bottom: 0%;
-      
+      padding-bottom: 0%;   
 
   }
   
@@ -28,7 +27,7 @@
       width: 100%;
       color: #FCE53D;
       background-color: #000080;
-      margin: none;
+      margin-left: none;
   }
 
   .thirtythree{
@@ -131,7 +130,7 @@
 
     #categoryGrid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
         grid-row-gap: 50px;
         grid-column-gap: 80px;
         padding-bottom: 50px;
