@@ -101,7 +101,7 @@
       color: #000080;
       font-size: 18pt;
       margin-left: 22.5%;
-      padding-top: 10px;
+      padding-top: 22px;
     }
     
     h3 {
@@ -121,6 +121,54 @@
       cursor: pointer;
 
     }
+
+    .BurgundyBar{
+        padding-left: 20%;
+        padding-bottom: 1%;
+        margin-top: 70px;
+        z-index: -2px;
+    }
+
+    h6{
+        text-align: left;
+        color: #000080;
+        font-size: 18pt;
+        margin-left: 8%;
+        margin-top: -90px;  
+    }
+
+    h5{
+       font-weight: 700; 
+       font-size: 14pt;
+       color: #000080;
+       margin-top: -2px;
+       text-align: left;
+       padding-left: 15px;
+    }
+
+    #para5{
+        font-size: 10pt;
+        color: #000080;
+        padding: 10px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 270px;
+        margin: 5px;
+        margin-top: -20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: left;
+        border: solid 0.5pt #000080;
+    }
+
+   .flexContainer{
+     display: flex;
+     width: 33%;
+     padding-left: 23%;
+     padding-top: 5%;
+     margin-top: -60px;  
+
+   }
 
     .YellowBar{
         padding-left: 20%;
