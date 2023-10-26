@@ -124,7 +124,7 @@
 
     .BurgundyBar{
         padding-left: 20%;
-        padding-bottom: 1%;
+        padding-bottom: 0%;
         margin-top: 70px;
         z-index: -2px;
     }
@@ -153,27 +153,37 @@
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         width: 270px;
-        margin: 5px;
+        margin: 10px;
         margin-top: -20px;
         padding-left: 5%;
         padding-right: 5%;
         text-align: left;
-        border: solid 0.5pt #000080;
+        border: solid 0.5pt #c3c2bf;
+        background-color: #f5f4f1;
     }
 
-   .flexContainer{
+    #myskills{
+        margin-top: 5%;
+        border: solid 1px #000080;
+    }
+
+   .flex-Container{
      display: flex;
-     width: 33%;
-     padding-left: 23%;
-     padding-top: 5%;
-     margin-top: -60px;  
 
    }
+
+   .flex-Container{
+    display: flex;
+    width: 100%;
+    padding-left: 23%;
+    padding-top: 2%;
+    margin-top: 10px;
+  }
 
     .YellowBar{
         padding-left: 20%;
         padding-bottom: 1%;
-        margin-top: -25px;
+        margin-top: -27px;
     }
 
     #categoryGrid{
@@ -247,7 +257,7 @@
         color: #000080;
       }
 
-    .heading{
+    .project_heading{
         color: #21005D;
         text-align: left;
         font-weight: 700;
@@ -290,4 +300,106 @@
 
 
   
+      @media only screen and (max-width: 600px) {
+        
+        .inline-block{
+            display: inline-block;
+            width: 70%;
+        }
+
+        .logo{
+            padding-left: 20%;
+        }
+
+        h1 {
+            text-align: right;
+            font-size: 22pt;
+            margin-right: 0%;
+            width: 75%;
+            
+          }
+
+        #para1 {
+            text-align: left;
+            margin-left: 15%;
+            width: 73%;
+          } 
+        
+        p {
+            text-align: left;
+            margin-left: 15%;
+            width: 70%;
+          }  
+        
+
+        .flex-Container{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 25%;
+            padding-bottom: 3%;      
+          }
+
+        #para5 {
+            width: 251px;
+            margin-bottom: 50px;
+            margin-left: 1px;
+          } 
+
+        .project_heading{
+            margin-top: -125px;
+            align-items: center;
+        }  
+
+        #categoryGrid{
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+            padding-bottom: 50px;
+            align-content: center;
+            margin-left: -10%;
+            margin-top: 25px;
+          }
+        
+        #para4 {
+            text-align: center;
+            font-size: 15pt;
+            margin-left: 10%;
+            width: 73%;
+          } 
+        
+          .button2{
+            color: #EEB454;
+            font-size: 13pt;
+            font-weight: 300;
+            padding: 7px 22px;
+            margin-right: 170px;
+            margin-top: -45px;
+            margin-bottom: 50px;
+        }
+        
+        .absolute_icons{
+            display: none;
+        }
+
+        #p3-social{
+            display: none;
+        }
+
+        #p1-spacer{
+            display: none;
+        }
+        
+        #para2{
+            font-size: 12px;
+            display: center;
+            width: 300px;
+            margin-left: 15%;
+        }
+
+
+    }
+
+
+      
+      
   
